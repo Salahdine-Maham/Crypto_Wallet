@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1019968326959",
+    "project_id": "ewalet-f61ed",
+    "storage_bucket": "ewalet-f61ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019968326959:android:73fd926a7b75637812e5da",
+        "android_client_info": {
+          "package_name": "com.example.ewalet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1019968326959-kuaeggfo45oepb123tjgd75oo4lqraoh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBq_dS3YBQXRVDwOvouH0szmi7OBGhiQTI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1019968326959-kuaeggfo45oepb123tjgd75oo4lqraoh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1019968326959-62nom7pnal0a35gusnt1sdre67i4ol3p.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.ewalet"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
