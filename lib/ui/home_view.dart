@@ -7,6 +7,8 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
+import '../net/flutterfile.dart';
+
 class HomeView extends StatefulWidget {
   const HomeView({ Key? key }) : super(key: key);
 
@@ -93,8 +95,11 @@ class _HomeViewState extends State<HomeView> {
                                       child: Row(
                                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                                       children: [
-                                        Text("Coin :${document.id} ", style: TextStyle( color : Colors.white)),
-                                        Text("Amount : \$${ getValue ( document.id , document.get('Amount')) }" , style: TextStyle( color : Colors.white) ),
+                                        SizedBox( width:  5.0,),
+
+                                        Text("Coin :${document.id} ", style: TextStyle( color : Colors.white , fontSize:  18,) ),
+                                        Text("Amount : \$${ getValue ( document.id , document.get('Amount')) }" , style: TextStyle( color : Colors.white , fontSize: 18) ),
+                                        IconButton(onPressed: (){ removeCoin(document.id); }  , icon: Icon(Icons.close , color: Colors.red ,))
                                        
                                       ],
                                     ),));
